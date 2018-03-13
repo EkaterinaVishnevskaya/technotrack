@@ -6,6 +6,6 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         String s = sc.nextLine();
         PalindromChecker pc = new PalindromChecker(s);
-        System.out.println(pc.isPalindrom()?"полиндром": "не полиндром");
+        System.out.print(pc.isPalindrom()?"полиндром": "не полиндром");
     }
 }
